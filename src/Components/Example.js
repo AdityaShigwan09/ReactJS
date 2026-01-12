@@ -4,7 +4,7 @@ import React from 'react';
 function Hello({name}){
     return(
     <div>
-      <h1>Hello React JS</h1>
+      <h1>Functional Component</h1>
       <p>Lets Get Started {name}!!!!</p>
     </div>
     );

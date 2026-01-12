@@ -1,27 +1,25 @@
 // import logo from './logo.svg';
 import Hello from './Components/Example';
+import Wel from "./Components/Example_class2"
+import HelloWorld from './Components/HelloWorld';
+import Example_S from './Components/Example_state';
 import './App.css';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+    <div className='App App-header'>
+      <h1>Hello React JS</h1>
+        <div className='mycss'>
+          <Hello name="Aditya"/>
+          <Wel name="Imperial"/>
+        </div>
 
-    <Hello name="Aditya"/>
+        <div>
+          <HelloWorld/>
+        </div>
+
+        <Example_S/>
+    </div> 
   );
 }
 
