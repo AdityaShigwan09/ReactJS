@@ -18,7 +18,7 @@ class DisplayMarks extends Component{
 
     resetmarks=()=>{
         this.setState({
-            marks:this.state.marks*0
+            marks:0
         });
     }
 

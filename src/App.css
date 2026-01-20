@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,8 +42,8 @@ h1{
   text-decoration: underline;
 }
 
-/* .mycss{
-  background:linear-gradient(135deg,black 40%,white 40%);
+.mycss{
+  /* background:linear-gradient(135deg,black 40%,white 40%); */
   background: transparent;
   font-size: 20px;
   box-shadow:-15px -15px 50px black;
@@ -51,10 +52,10 @@ h1{
   transition: .5s;
 }
 .mycss:hover{
-  background:linear-gradient(135deg,white 60%,black 40%);
+  /* background:linear-gradient(135deg,white 60%,black 40%); */
 
   box-shadow:15px 15px 40px white; 
   filter:drop-shadow(10px 10px 10px 50px white);
   padding: 31px;
  z-index: 1;
-} */
+}

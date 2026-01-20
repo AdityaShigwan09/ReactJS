@@ -27,17 +27,31 @@ class Ex_State extends Component{
     increment=()=>{
         this.setState({
             count:this.state.count+1,
-            message:"Counter is Incementing by 1"
+            message:"Counter is Incrementing by 1"
         });
     };
 
+    decrement=()=>{
+        this.setState({
+            count:this.state.count-1,
+            message:"Counter is Decrementing by 1s"
+        });
+        if(this.state.count===0){
+            this.setState({
+                count:0,
+                message:"Can't go Further!!"
+            });
+        }
+    }
     render(){
         return(
             <div>
                 <h1>State Example</h1>
                 <p>Count : {this.state.count}</p>
                 <p>Message :{this.state.message}</p>
-                <button onClick={this.increment}>Click</button>
+                <button onClick={this.increment}>(+1)</button>
+                <button onClick={this.decrement}>(-1)</button>
+
             </div>
         );
     }

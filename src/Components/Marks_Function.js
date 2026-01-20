@@ -4,7 +4,7 @@ import React from "react";
 function Display(props){
     return(
         <div>
-            <h1>Marks : {props.marks}</h1>
+            <h1>Marks : {props.marks}</h1> 
             <button onClick={props.add}>Add</button>
             <button onClick={props.reset}>Reset</button>
         </div>
