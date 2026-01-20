@@ -5,7 +5,7 @@ import HelloWorld from './Components/HelloWorld';
 import ExampleS from './Components/Example_state';
 import Counter from "./Components/State";
 import Marks from "./Components/Marks_Class";
-import Text from "./Components/Input_Class"
+// import Text from "./Components/Input_Class"
 import CountHooks from "./Components/Example_hook"
 import './App.css';
 
@@ -36,7 +36,7 @@ function App() {
 
           -------------------------------------------------------------
 
-        <Text/>
+        {/* <Text/> */}
 
           -------------------------------------------------------------
         
